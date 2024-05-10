@@ -14,7 +14,7 @@ body {
   background-color: #FFFFFF;
 }
 
-body, img {
+img {
   display: block;
 }
 
@@ -26,6 +26,10 @@ ul {
 
 a {
 text-decoration: none;
+}
+
+.header-div {
+display: flex;
 }
 
 .logotype {
@@ -389,8 +393,7 @@ color: #F4F4FD;
 }
 
 .footer-section {
-display: flex;
-flex-direction: column;
+display: inline-block;
 width: 264px;
 height: 112px;
 margin: 100px 1020px 100px 156px;
@@ -432,7 +435,12 @@ background-color: #FFFFFF;
 border-color: #E7E9FC;
 margin-top: 0px;
 margin-bottom: 0px;
+border-bottom: 1px solid #e7e9fc;
 
+}
+
+.header-div {
+  display: flex;
 }
 
 .header-nav {
