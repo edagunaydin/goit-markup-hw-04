@@ -14,7 +14,7 @@ body {
   background-color: #FFFFFF;
 }
 
-img {
+body, img {
   display: block;
 }
 
@@ -233,9 +233,8 @@ margin-bottom: 8px;
   margin-left: 156px;
   margin-top: 72px;
   margin-right: 24px;
-  flex-basis: calc((100% - 72px) / 4)
+  flex-basis: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
-  
 }
 
 .team-members {
@@ -377,7 +376,6 @@ height: 312px;
 gap: 0px;
 opacity: 0px;
 
-
 }
 
 .footer .lastsixletters {
@@ -399,6 +397,7 @@ margin: 100px 1020px 100px 156px;
 gap: 16px;
 opacity: 0px;
 padding: 100px 0px;
+
 
 }
 
