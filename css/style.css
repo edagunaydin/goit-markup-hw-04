@@ -110,7 +110,7 @@ address a:focus {
 color: #404BBF;
 } 
 
-.section-one .section-one-button {
+main .container .section-one-button {
   display: block;
   color: #FFFFFF;
   background-color: #4D5AE5;
@@ -130,8 +130,8 @@ color: #404BBF;
   
   }
   
-  .section-one .section-one-button:focus,
-  .section-one .section-one-button:hover
+  main .container .section-one-button:focus,
+  main .container .section-one-button:hover
    {
     background-color: #404BBF;
   }
@@ -140,7 +140,7 @@ color: #404BBF;
     text-align: center;
   }
   
-  .section-one {
+  main .container {
     display: flex;
     flex-direction: column;
     background-color: #2E2F42;
@@ -445,7 +445,7 @@ border-bottom: 1px solid #e7e9fc;
 
 }
 
-.header-div {
+header .container {
   display: flex;
 }
 
