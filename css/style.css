@@ -3,8 +3,7 @@
 }
 
 body {
-  display: flex;
-  flex-direction: column;
+  
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
   color:#434455; 
@@ -14,7 +13,7 @@ body {
   background-color: #FFFFFF;
 }
 
-body, img {
+img {
   display: block;
   margin: auto;
 }
@@ -170,18 +169,17 @@ color: #404BBF;
 .section-two {
   display: flex;
   flex-direction: column;
-  width: 1440px;
-  height: 344px;
   justify-content:center;
   align-items: center;
   padding: 120px, 0px, 120px, 0px;
+
   
 }
 
 .visually-hidden {
-  visibility: hidden
+  visibility: hidden;
 }
- 
+
 .section-two .section-two-ul .header-third {
 font-weight: 500;
 font-size: 20px;
@@ -212,7 +210,7 @@ margin-bottom: 8px;
   height: 104px;
   margin: 120px 156px;
   gap: 24px;
-  justify-content: space-between
+  justify-content: space-between;
 
 }
 
