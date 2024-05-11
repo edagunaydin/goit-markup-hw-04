@@ -25,11 +25,15 @@ Img {
 ul {
   list-style-type: none;
   margin: 0;
-  padding-left: 0;
+  padding: 0;
 }
 
 a {
 text-decoration: none;
+}
+
+h1 h2 h3 h4 h5 h6 p ul {
+  margin: 0;
 }
 
 .header-nav .logotype {
@@ -107,7 +111,7 @@ color: #404BBF;
 } 
 
 .container .section-one .section-one-button {
-  display: flex;  
+  display: block;  
   color: #ffffff;
   background-color: #4D5AE5;
   font-weight: 500;
@@ -437,6 +441,11 @@ header .container {
   width: 1158px; 
   margin: 0 auto;
   justify-content: space-around;
+}
+
+body .container {
+  width: 1158px;
+
 }
 
 .header-nav {
