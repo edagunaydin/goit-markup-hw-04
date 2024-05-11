@@ -110,7 +110,7 @@ address a:focus {
 color: #404BBF;
 } 
 
-.container .section-one .section-one-button {
+main .container .section-one .section-one-button {
   display: block;  
   color: #ffffff;
   background-color: #4D5AE5;
@@ -130,8 +130,8 @@ color: #404BBF;
   
   }
   
-  .container .section-one .section-one-button:focus,
-  .container .section-one .section-one-button:hover
+main .container .section-one .section-one-button:focus,
+main .container .section-one .section-one-button:hover
    {
     background-color: #404BBF;
   }
@@ -140,7 +140,7 @@ color: #404BBF;
     text-align: center;
   }
   
-.container .section-one {
+main .container .section-one {
     display: flex;
     flex-direction: column;
     background-color: #2E2F42;
