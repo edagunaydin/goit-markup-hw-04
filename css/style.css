@@ -110,7 +110,7 @@ address a:focus {
 color: #404BBF;
 } 
 
-main .container .section-one-button {
+.main .container .section-one-button {
   display: block;
   color: #FFFFFF;
   background-color: #4D5AE5;
@@ -130,8 +130,8 @@ main .container .section-one-button {
   
   }
   
-  main .container .section-one-button:focus,
-  main .container .section-one-button:hover
+  .main .container .section-one-button:focus,
+  .main .container .section-one-button:hover
    {
     background-color: #404BBF;
   }
@@ -140,7 +140,7 @@ main .container .section-one-button {
     text-align: center;
   }
   
-  main .container {
+  .main .container {
     display: flex;
     flex-direction: column;
     background-color: #2E2F42;
@@ -423,14 +423,6 @@ p {
   margin: 0;
 }
 
-.header-section {
-  width: 1158px;
-  margin: 0 auto;
-  padding: 0px 15px 0px 15px;
-  display: flex;
-}
-
-
 .class-header {
 display: flex;
 flex-direction: row;
@@ -447,6 +439,11 @@ border-bottom: 1px solid #e7e9fc;
 
 header .container {
   display: flex;
+  flex-direction: row;
+  padding: 0 15px;
+  width: 1158px; 
+  margin: 0;
+  justify-content: space-around;
 }
 
 .header-nav {
