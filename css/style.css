@@ -72,7 +72,7 @@ gap: 0px;
     font-weight: 500;
     font-style:normal;
     color:#2E2F42;
-    padding: 24px 0px 24px 0px;
+    padding: 24px 0px;
 }
 
 .nav-links a:hover,
@@ -110,7 +110,7 @@ address a:focus {
 color: #404BBF;
 } 
 
-.main .container .section-one-button {
+.section-one .container .section-one-button {
   display: block;
   color: #FFFFFF;
   background-color: #4D5AE5;
@@ -120,7 +120,7 @@ color: #404BBF;
   letter-spacing: 0.04em;
   width: 169px;
   height: 56px;
-  padding: 16px 32px 16px 32px;
+  padding: 16px 32px;
   margin-left: 636px;
   margin-top: 48px;
   min-width: 169px;
@@ -130,8 +130,8 @@ color: #404BBF;
   
   }
   
-  .main .container .section-one-button:focus,
-  .main .container .section-one-button:hover
+  .section-one .container .section-one-button:focus,
+  .section-one .container .section-one-button:hover
    {
     background-color: #404BBF;
   }
@@ -140,7 +140,7 @@ color: #404BBF;
     text-align: center;
   }
   
-  .main .container {
+  .section-one .container {
     display: flex;
     flex-direction: column;
     background-color: #2E2F42;
@@ -150,7 +150,7 @@ color: #404BBF;
     margin-top: 0px;
     text-align: center;
     gap: 10px; 
-    padding: 188px 0px 188px 0px;
+    padding: 188px 0px;
   
   }
   
@@ -173,7 +173,7 @@ color: #404BBF;
   flex-direction: column;
   justify-content:center;
   align-items: center;
-  padding: 120px, 0px, 120px, 0px;
+  padding: 120px 0px;
 
   
 }
@@ -229,7 +229,7 @@ margin-bottom: 8px;
   height: 732px;
   margin-top: 0px;
   flex-direction: column;
-  padding: 120px, 0px, 120px, 0px;
+  padding: 120px 0px;
 
 }
 
@@ -252,7 +252,7 @@ margin-bottom: 8px;
 .team-members {
   width: 264px;
   height: 380px;
-  padding: 0px, 0px, 32px, 0px;
+  padding: 0px 0px 32px 0px;
   gap: 24px;
   border-radius: 0px 0px 4px 4px;
   
@@ -268,7 +268,7 @@ margin-bottom: 8px;
   justify-content:center;
   align-items:center;
   margin: 32px 16px 32px 16px;
-  padding: 32px, 0px, 32px, 0px;
+  padding: 32px 0px;
     
 }
 
@@ -307,7 +307,7 @@ margin-bottom: 72px;
   height: 1240px;
   margin-top: 120px;
   gap: 8px;
-  padding: 120px, 0px, 120px, 0px;
+  padding: 120px 0px;
 }
 
 .our-portfolio-row-one {
@@ -387,7 +387,7 @@ color: #F4F4FD;
 width: 1440px;
 height: 312px;
 gap: 0px;
-padding: 100px 0;
+padding: 100px 0px;
 
 }
 
