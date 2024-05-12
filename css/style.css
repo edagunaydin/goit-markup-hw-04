@@ -4,8 +4,6 @@
   box-sizing: border-box;
 }
 
-
-
 body {
   
   box-sizing: border-box;
@@ -15,6 +13,8 @@ body {
   font-size: 16px;
   list-style-type: none;
   background-color: #FFFFFF;
+  width: 1440px;
+  height: 2060px;
 }
 
 Img {
@@ -44,11 +44,10 @@ font-size: 18px;
 line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
+margin-right: 76px;
 display: flex;
 width: 115px;
 height: 24px;
-margin-left: 156px;
-margin-right: 76px;
 gap: 0px;
 
 }
@@ -110,7 +109,7 @@ address a:focus {
 color: #404BBF;
 } 
 
-main .container .section-one .section-one-button {
+.section-one .container .section-one-button {
   display: block;  
   color: #ffffff;
   background-color: #4D5AE5;
@@ -130,8 +129,8 @@ main .container .section-one .section-one-button {
   
   }
   
-main .container .section-one .section-one-button:focus,
-main .container .section-one .section-one-button:hover
+.section-one .container .section-one-button:focus,
+.section-one .container .section-one-button:hover
    {
     background-color: #404BBF;
   }
@@ -140,7 +139,7 @@ main .container .section-one .section-one-button:hover
     text-align: center;
   }
   
-main .container .section-one {
+.section-one .container {
     display: flex;
     flex-direction: column;
     background-color: #2E2F42;
