@@ -196,7 +196,7 @@ margin-bottom: 8px;
   gap: 8px;
 }
 
-.section-two-ul {
+.section-two .section-two-ul {
   display: flex;
   flex-direction: row;
   width: 1128px;
@@ -207,7 +207,7 @@ margin-bottom: 8px;
 
 }
 
-.section-two-li {
+.section-two .section-two-li {
   height: 104px;
   gap:8px;
   flex-basis: calc((100% - 72px) / 4);
