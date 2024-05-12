@@ -8,9 +8,10 @@ body {
   background-color: #FFFFFF;
   width: 1440px;
   height: 2060px;
+
 }
 
-Img {
+body img {
   display: block;
   margin: auto;
 }
@@ -170,7 +171,10 @@ color: #404BBF;
 }
 
 .visually-hidden {
-  visibility: hidden;
+  height: 1px; 
+  overflow: hidden;
+  position: absolute;
+  width: 1px;
 }
 
 .section-two .section-two-ul .header-third {
@@ -263,7 +267,9 @@ margin-bottom: 8px;
     
 }
 
-.ourteam .header-section-three {
+.ourteam .container .header-section-three {
+display: flex;
+flex-direction:row;
 font-size: 36px;
 line-height: 1.11;
 text-align: center;
@@ -271,6 +277,9 @@ letter-spacing: 0.02em;
 text-transform: capitalize;
 color: #2e2f42;
 margin-bottom: 72px;
+margin-left: 639px;
+height: 40px;
+flex-wrap: nowrap;
 
 }
 
