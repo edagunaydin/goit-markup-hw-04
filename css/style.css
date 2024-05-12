@@ -102,7 +102,7 @@ address a:focus {
 color: #404BBF;
 } 
 
-.section-one .container .section-one-button {
+.section-one .section-one-button {
   display: block;  
   color: #ffffff;
   background-color: #4D5AE5;
@@ -132,7 +132,7 @@ color: #404BBF;
     text-align: center;
   }
   
-.section-one .container {
+.section-one {
     display: flex;
     flex-direction: column;
     background-color: #2E2F42;
