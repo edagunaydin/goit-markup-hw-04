@@ -258,7 +258,7 @@ flex-basis: calc((100% - 72px) / 4);
   margin-top: 72px;
   margin-right: 24px;
   border-radius: 0px 0px 4px 4px;
-  
+  flex-basis: calc((100% - 72px) / 4);
     
 }
 
@@ -268,7 +268,7 @@ flex-basis: calc((100% - 72px) / 4);
   padding: 0px 0px 32px 0px;
   gap: 24px;
   border-radius: 0px 0px 4px 4px;
-  flex-basis: calc((100% - 72px) / 4);
+  
   
 }
 
@@ -299,6 +299,10 @@ margin-left: 639px;
 height: 40px;
 flex-wrap: nowrap;
 
+}
+
+.ourteam .container {
+  width: 1158px;
 }
 
 .ourteam .ourteamlist .header-team {
