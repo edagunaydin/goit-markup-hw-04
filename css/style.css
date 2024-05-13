@@ -243,6 +243,7 @@ flex-basis: calc((100% - 72px) / 4);
 
 .ourteam img {
   display: block;
+  width: 100%;
 }
 
 .ourteamlist >li {
@@ -258,14 +259,9 @@ flex-basis: calc((100% - 72px) / 4);
   margin-top: 72px;
   margin-right: 24px;
   border-radius: 0px 0px 4px 4px;
-  flex-basis: calc((100% - 72px) / 4);
   width: 1440px; 
   height: 732px;
     
-}
-
-.ourteamlist:first-child {
-  flex-basis: calc((100% - 72px) / 4);
 }
 
 .team-members {
@@ -274,7 +270,7 @@ flex-basis: calc((100% - 72px) / 4);
   padding: 0px 0px 32px 0px;
   gap: 24px;
   border-radius: 0px 0px 4px 4px;
-  
+  flex-basis: calc((100% - 72px) / 4);
   
 }
 
@@ -336,6 +332,7 @@ flex-wrap: nowrap;
 
 .ourportfolio img {
   display: block;
+  width: 100%;
 }
 
 .ourportfolio .our-portfolio-ul {
