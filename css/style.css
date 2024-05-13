@@ -6,7 +6,6 @@
   padding: 0;
 }
 
-
 body {
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
@@ -329,6 +328,12 @@ flex-wrap: nowrap;
     
 }
 
+.ourportfolio .container {
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
 .ourportfolio img {
   display: block;
   width: 100%;
@@ -428,11 +433,11 @@ color: #F4F4FD;
 }
 
 footer .container {
-width: 264px;
 height: 112px;
-margin: 100px 1020px 100px 156px;
 gap: 16px;
-
+width: 1158px;
+margin: 0 auto;
+padding: 0 15px;
 }
 
 footer .container a {
@@ -472,7 +477,6 @@ header .container {
 
 body .container {
   width: 1158px;
-
 }
 
 .header-nav {
