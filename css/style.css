@@ -230,11 +230,6 @@ margin-bottom: 8px;
 flex-basis: calc((100% - 72px) / 4);
 }
 
-.header-third:first-child {
-  margin-bottom: 8px;
-}
-
-
 .ourteam {
   background-color: #F4F4FD;
   display: flex;
@@ -275,11 +270,9 @@ flex-basis: calc((100% - 72px) / 4);
   
 }
 
-.team-members:first-child {
+.ourteamlist:first-child {
   flex-basis: calc((100% - 72px) / 4); 
 }
-
-
 
 .ourteam-h-p {
   display: flex;
@@ -328,38 +321,43 @@ flex-wrap: nowrap;
 }
 
 .ourportfolio {
-  margin-left: 156px;
+  display: flex;
+  flex-direction: column;
+  width: 1440px;
   height: 1240px;
-  margin-top: 0px;
+  padding: 120px 156px;
   gap: 8px;
-  padding: 120px 0px;
-  
-
+    
 }
 
 .ourportfolio img {
   display: block;
 }
 
-.our-portfolio-ul {
+.ourportfolio .our-portfolio-ul {
   display: flex;
+  flex-direction: row;
   gap: 8px;
   width: 1128px;
   height: 420px;
   justify-content:space-around;
   align-items: center;
   margin-top: 72px;
-  column-gap: 24px;
   margin-right: 24px;
+  margin-bottom: 0;
   row-gap: 48px;
-  width: calc((100% - 48px) / 3);
+  column-gap: 24px;
+  flex-wrap: wrap;
 
 }
 
-.our-portolio-ul-li {
-display: flex;
-flex-wrap: wrap;
+.ourportfolio .our-portfolio-ul:first-child {
+  width: calc((100% - 48px) / 3);
+}
 
+
+.ourportfolio .our-portfolio-ul:last-child {
+  margin-right: 0px;
 }
 
 .ourportfolio .our-portfolio-card {
@@ -377,20 +375,21 @@ border-top: none;
 }
 
 .ourportfolio .header-ourportfolio {
+display: flex;
+flex-direction: row;
 font-weight: 700;
 font-size: 36px;
 line-height: 1.1;
 text-transform: capitalize;
 letter-spacing: 0.02em;
 color: #2e2f42;
-margin-top: 0px;
+margin-bottom: 72px;
 margin-left: 455px;
-margin-right: 455px;
-margin-bottom: 8px;
 justify-content:center;
 width: 219px;
 height: 40px;
 text-align: center;
+flex-wrap: nowrap;
 
 }
 
