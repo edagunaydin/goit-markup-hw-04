@@ -271,9 +271,6 @@ flex-basis: calc((100% - 72px) / 4);
     
 }
 
-.team-members:first-child {
-  flex-basis: calc((100% - 72px) / 4);
-}
 .ourteam-h-p {
   display: flex;
   flex-direction: column;
