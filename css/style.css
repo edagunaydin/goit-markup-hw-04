@@ -261,7 +261,7 @@ flex-basis: calc((100% - 72px) / 4);
   
 }
 
-.ourteamlist:first-child {
+.ourteam .ourteamlist:first-child {
   flex-basis: calc((100% - 72px) / 4);
 }
 
