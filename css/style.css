@@ -216,8 +216,7 @@ margin-bottom: 8px;
   margin-right: 24px;
   gap: 24px;
   justify-content: space-between;
-  flex-basis: calc((100% - 72px) / 4);
-
+ 
 }
 
 .section-two-ul:last-child {
@@ -253,8 +252,11 @@ flex-basis: calc((100% - 72px) / 4);
   gap: 24px;
   margin: 0 auto;
   border-radius: 0px 0px 4px 4px;
-  flex-basis: calc((100% - 72px) / 4);
-  
+    
+}
+
+.ourteamlist:first-child {
+flex-basis: calc((100% - 72px) / 4);
 }
 
 .team-members {
@@ -319,7 +321,7 @@ justify-content: center;
   padding: 120px 0px;
   margin: 0 auto;
   gap: 8px;
-    
+  
 }
 
 
@@ -378,7 +380,6 @@ letter-spacing: 0.02em;
 color: #2e2f42;
 margin-bottom: 72px;
 margin-left: 455px;
-margin: 0 auto;
 justify-content:center;
 width: 219px;
 height: 40px;
@@ -466,6 +467,7 @@ footer .logotype {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-bottom: 16px;
   }
 
 
