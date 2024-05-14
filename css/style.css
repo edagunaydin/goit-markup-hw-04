@@ -223,9 +223,10 @@ margin-bottom: 8px;
   margin-right: 0;
 }
 
-.section-two-ul:first-child {
+.section-two-li {
 flex-basis: calc((100% - 72px) / 4);
 }
+
 
 .ourteam {
   background-color: #F4F4FD;
@@ -255,16 +256,13 @@ flex-basis: calc((100% - 72px) / 4);
     
 }
 
-.ourteamlist:first-child {
-flex-basis: calc((100% - 72px) / 4);
-}
-
 .team-members {
   width: 264px;
   height: 380px;
   padding: 0px 0px 32px 0px;
   gap: 24px;
   border-radius: 0px 0px 4px 4px;
+  flex-basis: calc((100% - 72px) / 4);
   
 }
 
