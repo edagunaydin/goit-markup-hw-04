@@ -80,7 +80,7 @@ gap: 0px;
   color: #404BBF;
 }
 
-.nav-links .link-studio:active::after {
+.nav-links .link-studio:active {
   text-decoration: underline;
 }
 
