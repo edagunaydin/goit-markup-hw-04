@@ -84,7 +84,7 @@ gap: 0px;
  
 }
 
-.nav-links .link-studio:active::after {
+.nav-links .link-studio:active {
   text-decoration: underline;
 }
 
