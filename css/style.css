@@ -91,7 +91,7 @@ gap: 0px;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.nav-links a::after {
+.nav-links .link-one::after {
   content: "";
   width: 100%;
   position: absolute;
@@ -122,6 +122,13 @@ gap: 0px;
 
 }
 
+.nav-links .link-one {
+  color: #404bbf;
+  
+
+
+}
+
 
 .address {
   display: flex;
@@ -142,8 +149,7 @@ color: #434455;
 address a:hover,
 address a:focus {
 color: #404BBF;
-transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
-transition-duration: 250ms;
+
 } 
 
 .section-one .section-one-button {
@@ -188,7 +194,7 @@ transition-duration: 250ms;
     text-align: center;
     gap: 10px; 
     padding: 188px 0px;
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(https://s3-alpha-sig.figma.com/img/7c8d/46d4/7e83b6c8ee4603ea892aa8aaebb3c5fe?Expires=1717977600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=AsdIZLR88JpFb7PzFDC4qpQRDisi5SQN0baQAfiwEhgP~aLj5PS3DiWW1oQjCDavdQ5uWPP0Vu1PoJvTAtV0EBwfl66pWRI8IWdoTvykFOkUMH6iYsYInFDOLs~c437twaN75uG4tnVTyKmhoYefTi1ygiQ2naIbfgK8aS4X3lpi9Y~uoMvuQ7NZ0MGu6AN9norUSxGowISt2X2LOk5a1KVJ40H-8r2teWneT4UnHMNfb1yexcRaC1Mhg4rMLN~r7OQhD7VpzZpUPU7rew-RRS9lmobkyXfqtHo7HgSgBH3SBe1JbPxKMYQeCk8ozm63JDDwrslo~0n7yIDc7CWTtQ__);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office\ 1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -594,9 +600,11 @@ footer .logotype {
 }
 
   
-.ourteam .social-button:hover {
+.ourteam .social-button:hover,
+.ourteam .social-button:focus
+ {
   background-color: #404BBF;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 
 .ourteam .social-button {
@@ -607,6 +615,7 @@ footer .logotype {
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 footer .footer-social-button {
@@ -643,7 +652,6 @@ footer .social-links-footer {
 .social-links-ul-footer {
   display: flex;
   gap: 16px;
-  margin-top: 16px;
   width: 40px;
   height: 40px;
 
@@ -655,6 +663,7 @@ footer .social-links-footer {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #ffffff;
+  margin-bottom: 16px;
 
 }
 
